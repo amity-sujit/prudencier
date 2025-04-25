@@ -8,6 +8,11 @@ theme: minima # Optional, but we’ll use custom layouts
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+collections:
+  projects:
+    output: true
+  services:
+    output: true
 twitter_username:
 github_username:
 
