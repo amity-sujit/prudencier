@@ -6,10 +6,18 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="/services">Local App</a></li>
-        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/projects/' %}active{% endif %}" href="/projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/services/' %}active{% endif %}" href="/services">Local App</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="/contact">Contact</a>
+        </li>
       </ul>
     </div>
   </div>
