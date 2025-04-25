@@ -1,0 +1,11 @@
+- title: Crop Yield Optimizer
+  description: ML-driven platform suggesting optimal crops using soil and weather data.
+  image: /img/project1.jpg
+
+- title: Geo Risk Assessment
+  description: Spatial models to calculate risk for property insurance underwriting.
+  image: /img/project2.jpg
+
+- title: AI Document Assistant
+  description: Chatbot that extracts insights from unstructured PDF documents using LLMs.
+  image: /img/project3.jpg
